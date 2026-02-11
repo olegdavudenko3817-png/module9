@@ -22,7 +22,7 @@ public class MyStack<T> {
         }
 
         T value = array[--size];
-        array[size] = null; // очистка ссылки
+        array[size] = null;
         return value;
     }
 
